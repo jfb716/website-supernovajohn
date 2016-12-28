@@ -1,2 +1,0 @@
-# website-supernovajohn
-Practice Website
