@@ -1,5 +1,6 @@
 html {
     background-color: #d3d3d3;
+    text-align: center; 
 }
 
 img {
@@ -27,4 +28,18 @@ a:visited {
 
 a:hover {
     color: #4F8EF7;
+}
+
+img {
+    border-radius: 13px;
+    border-style: inset;
+    box-shadow: 15px 15px 10px #888888;
+    width: 80%;
+    padding: 20px;
+    margin: 10px;
+}
+
+img:hover {
+    background-color: black;
+    opacity: .3;
 }
