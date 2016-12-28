@@ -6,6 +6,10 @@ html {
 img {
     opacity: 1;
 }
+header {
+    height: 60px;
+    margin-bottom: 10px;
+}
 
 ul {
     list-style-type: none;
@@ -43,3 +47,4 @@ img:hover {
     background-color: black;
     opacity: .3;
 }
+
