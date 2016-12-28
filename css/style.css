@@ -5,3 +5,26 @@ html {
 img {
     opacity: 1;
 }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+
+li {
+    margin: 0 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #4F8EF7;
+}
