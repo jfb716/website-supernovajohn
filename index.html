@@ -9,57 +9,27 @@
         <meta name="description" content="Test Site for John F. Black">
         <meta name="keywords" content="John, John Black, John F Black, John F. Black, John Francis Black, Test, Test Site, Synacor, Facebook, NBC, NBCUniversal, LocalEdge, Buffalo, New York, New York City, NYC, Grand Island, University at Buffalo, UB, Technical Support, Ad Operations, AdOps, AdTech">
         <title>SupernovaJohn</title>
-        
-        <!-- Style Libraries -->
-        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-        
-        
-        <!-- My Styles -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" media="(max-width:499px)" href="css/small.css">
-        <link rel="stylesheet" media="(min-width:500px) and (max-width:732px)" href="css/med.css">
-        <link rel="stylesheet" media="(min-width:732px) and (max-width:1050px)" href="css/large.css">
-        <link rel="stylesheet" media="(min-width:1051px)" href="css/xlarge.css">
-        
-        
-        
-        <!-- Javascript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-        
-        
-        <!-- My JavaScript -->
-        <script src="js/image.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <header>
-        <ul class="socialMedia">
-            <a href="https://www.facebook.com/JohnFrancisBlack" target="_blank"><li class="ion-social-facebook"></li></a>
-            <a href="https://www.linkedin.com/in/johnfblack" target="_blank"><li class="ion-social-linkedin"></li></a>
-            <a href="https://twitter.com/JohnFBlack" target="_blank"><li class="ion-social-twitter"></li></a>
-            <a href="https://plus.google.com/u/0/+johnfblack" target="_blank"><li class="ion-social-googleplus"></li></a>
-            <a href="https://github.com/jfb716" target="_blank"><li class="ion-social-github"></li></a>
-        </ul>
-    </header>
+
     <body>
-       <div id="rotating-wrapper">
-         <div>
-          <p class="image_text">Image One Text</p>
-          <img src="resources/space_1.jpg" alt="space 1" width="100%" height="100%" class="rotating-item one">
-         </div>
-         <div>
-          <p class="image_text">Image Two Text</p>
-          <img src="resources/space_2.jpg" alt="space 2" width="100%" height="100%" class="rotating-item two">
-         </div>
-         <div>
-          <p class="image_text">Image Three Text</p>
-          <img src="resources/space_3.jpg" alt="space 3" width="100%" height="100%" class="rotating-item three">
-         </div>
-         <div>
-          <p class="image_text">Image Four Text</p>
-          <img src="resources/space_4.jpg" alt="space 4" width="100%" height="100%" class="rotating-item four">
-         </div>
-       </div>
+      <div id="container">
+        OUTPUT:
+        <br>
+        <div id="output">Nothing Yet</div>
+        <div id="oneForm">
+          <form method="post" action="add.php" id="myForm">
+            <label>First Name</label><br>
+            <input type="text" name="firstName"><br>
+            <label>Last Name</label><br>
+            <input type="text" name="lastName"><br>
+            <label>Age</label><br>
+            <input type="number" name="age"><br>
+            <input type="submit" id="buttonOne" value="add">
+          </form>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+      </div>
     </body>
 </html>
-
