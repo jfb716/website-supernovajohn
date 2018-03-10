@@ -1,6 +1,10 @@
 $(document).ready(function(){
 
-  $("button").click(function(){
+  $(".clear").click(function(){
+    $(".sav, .bil, .mon, .pay").val('');
+  });
+
+  $(".forcast").click(function(){
 
       $(".table").empty();
 
