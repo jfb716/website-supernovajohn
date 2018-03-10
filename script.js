@@ -4,7 +4,7 @@ $(document).ready(function(){
     $(".sav, .bil, .mon, .pay").val('');
   });
 
-  $(".forcast").click(function(){
+  $(".forecast").click(function(){
 
       $(".table").empty();
 
