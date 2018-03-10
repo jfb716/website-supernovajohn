@@ -46,8 +46,9 @@ $(document).ready(function(){
         html += `<tr><td>${x}</td><td>$${numberWithCommas(Math.round(ms))}</td></tr>`;
         x++;
       }
-
-      $(".table").append(`<h3>Monthly Contribution: $${numberWithCommas(Math.round(mr - bil2))}</h3>` + html + '</table>');
+      if (x !=0) {
+          $(".table").append(`<h3>Monthly Contribution: $${numberWithCommas(Math.round(mr - bil2))}</h3>` + html + '</table>');
+      }
 
       });
 
